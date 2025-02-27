@@ -51,6 +51,10 @@ namespace ValoresEspeciais
             Console.WriteLine(2*Overflow1);
             Console.WriteLine(Overflow2*2);
 
+            float f1 , f2 ;
+            f1 = f2 = 10000.0f;
+            Console.WriteLine(f1 == f2 + 0.0001f);
+
         }
     }
 }
