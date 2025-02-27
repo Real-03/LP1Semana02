@@ -12,7 +12,8 @@ namespace Cilindro
             Console.Write("Introduz o Raio do cilindro: ");
             raio=double.Parse(Console.ReadLine());
 
-
+            Console.WriteLine(Math.Round(Math.PI*Math.Pow(raio,2)*height,3));
+            Console.WriteLine(Math.Round(2*Math.PI*raio*(raio+height),3));
         }
     }
 }
