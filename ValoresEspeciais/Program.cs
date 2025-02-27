@@ -43,6 +43,8 @@ namespace ValoresEspeciais
             Console.WriteLine(PositiveInf);
             Console.WriteLine(NegativeInf);
             Console.WriteLine(Nan);
+            uint uintvalue = uint.MaxValue;
+            Console.WriteLine(uintvalue+1);
 
         }
     }
