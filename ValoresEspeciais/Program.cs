@@ -36,6 +36,13 @@ namespace ValoresEspeciais
             Console.WriteLine(double.MinValue);
             Console.WriteLine(decimal.MinValue);
 
+            double PositiveInf = double. PositiveInfinity ;
+            double NegativeInf = double. NegativeInfinity;
+            double Nan = double.NaN;
+            
+            Console.WriteLine(PositiveInf);
+            Console.WriteLine(NegativeInf);
+            Console.WriteLine(Nan);
 
         }
     }
