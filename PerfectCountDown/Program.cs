@@ -10,9 +10,9 @@ namespace PerfectCountDown
             int start=0, step = 0;
             bool response = false;
             do{
-                Console.Write("Start Number:");
+                Console.Write("Start number:");
                 start = Int32.Parse(Console.ReadLine());
-                Console.Write("Step Number:");
+                Console.Write("Step number:");
                 step = Int32.Parse(Console.ReadLine());
 
                 if(start <1 || step <1)
